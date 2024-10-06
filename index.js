@@ -11,5 +11,12 @@ for(let i=0;i<arr.length;i++){
         console.log("Odd Num:",odd)
     }
 }
+for (let j=0; j <= arr.length; j++) {
+    let pattern = '';
+    for (let k = 1; k <= j ; k++) {
+        pattern += '* ';
+    }
+    console.log(pattern);
+}
 
 
